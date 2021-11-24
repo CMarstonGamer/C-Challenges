@@ -1,0 +1,89 @@
+1) Program that returns true
+public class Program 
+{
+    public static bool ReturnTrue() 
+    {
+      return true;
+    }
+}
+
+2) Program that converts minutes to seconds
+public class Program {
+	public static int convert(int minutes) {
+		return minutes*60;
+	}
+}
+
+3) Program that returns true if the sum of 2 numbers is less than 100 and false if it is more than 100
+public class Program 
+{
+    public static bool lessThan100(int a, int b) 
+    {
+			if(a+b <100){
+				return true;
+			} else{
+				return false;
+			}
+		}
+}
+
+4) Program that checks if 2 numbers are equal and returns true if they are and false if they aren't
+public class Program
+{
+    public static bool IsSameNum(int num1, int num2)
+		{
+			if(num1==num2){
+				return true;
+			} else{
+				return false;
+			}
+		}
+}
+
+5) Program that returns the sum of two numbers
+public class Program
+{
+    public static int Sum(int a, int b)
+    {
+			return a+b;
+    }
+}
+
+6) Program that returns the remainder of 2 numbers after a division operation
+public class Program 
+{
+    public static int Remainder(int x, int y) 
+    {
+			return x%y;
+    }
+}
+7) Program that returns the area of a triangle
+public class Program
+{
+	public static int triArea(int b, int h)
+	{
+		return(b*h/2);
+	}
+}
+8) Program that returns "something " before a given string
+public class Program {
+	public static string GiveMeSomething(string a) {
+		return ("something "+a);
+	}
+}
+9) Program that returns voltage x current
+public class Program 
+{
+    public static int CircuitPower(int voltage, int current) 
+    {
+			return voltage*current;
+    }
+}
+10) Program that returns age x days
+public class Program 
+{
+    public static int CalcAge(int age) 
+    {
+			return age*365;
+    }
+}
